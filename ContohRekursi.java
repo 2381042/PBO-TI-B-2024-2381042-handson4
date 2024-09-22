@@ -1,8 +1,8 @@
 public class ContohRekursi {
     public static  int faktorial(int n) {
-        if (n == 0); {
+        if (n == 0) {
         return 1;
-    }else {
+    } else {
         return n * faktorial(n - 1);
 
     }
